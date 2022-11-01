@@ -15,6 +15,9 @@ background: rgba(224, 206, 236, 0.651);
   border-radius:12px ;
 padding:37px 0;
 }
+h3{
+  color: azure;
+}
 .app_todoContainer{
   flex: 1;
   width: 100%;

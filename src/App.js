@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="app">
       <div className="app_container">
+      <h3>TODO list</h3>
         <div className="app_todoContainer">
+      
           {
             todoList.map(item => (
               <TodoItems name={item.item}
@@ -18,9 +20,6 @@ function App() {
             ))
           }
         </div>
-        {/* todo list */}
-        {/* done */}
-        {/* input */}
         <Input />
       </div>
     </div>
